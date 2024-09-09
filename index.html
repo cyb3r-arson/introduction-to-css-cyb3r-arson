@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Template</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Registration Page</h1>
+    </header>
+
+    <!-- Paragraph -->
+    <p>Fill out the form below to register. Your information will be used for account creation purposes.</p>
+
+    <!-- Registration Form -->
+    <h2>Register Here</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Table for Displaying User Information -->
+    <h2>User Information</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+                <td>+123456789</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>jane@example.com</td>
+                <td>+987654321</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Image Section -->
+    <h2>Profile Picture</h2>
+    <img src="profile.jpg" alt="Profile Picture" width="200">
+
+    <!-- External Link -->
+    <h2>External Links</h2>
+    <a href="https://google.com" target="_blank">Visit Google</a>
+
+</body>
+</html>
